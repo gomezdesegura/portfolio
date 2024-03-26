@@ -1,0 +1,276 @@
+:root { 
+  --grisdarkcolor:hsl(228, 15%, 27%);
+  --greencolor:hsl(123, 65%, 51%);
+  --grisclarocolor:  hsl(147, 7%, 76%);
+  --whitecolor:#fff;
+  --grisMediumColor: #787878;
+  --main-font:"Public Sans", sans-serif;
+}
+
+
+.unico{
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+
+}
+
+
+body{
+    color:hsl(228, 15%, 27%);
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font: optional;
+    font-style:normal;
+    font-size:18px;
+  }
+
+
+img
+    a {color:  #6fc72a;
+ 
+       
+      }
+
+    a:hover, a:focus {
+        color: #333;
+      }
+
+    a:focus {
+        color:#060;
+    }
+
+.container {
+  width: 90%;
+  max-width: 800;
+  margin: auto;
+
+}
+
+
+
+h1{
+  font-size: 36px;
+  color:#fff;
+}
+
+h2{
+  font-size: 20px;
+}
+
+h3{
+  font-size: 16px;
+  color: #787878;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+h4{
+  font-size: 16px;
+}
+
+a { text-decoration: none;
+  color: hsl(123, 65%, 51%);
+ 
+  -webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition:  color 300ms, background-color 300ms;
+  transition:  color 300ms, background-color 300ms;
+}
+
+a:hover, a:focus {
+  color: #333;
+}
+a:focus {
+  color:#060;
+}
+
+.lead{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.center {
+  text-align: center;
+  padding-bottom: 55px;
+}
+
+.boton  { background-color: #0F3;}
+.presupuesto { margin:0; padding:35px 0 15px  0; }
+.presupuesto p{ font-size:18px;  }
+
+
+
+.servicios{
+  display: inline;
+
+
+}
+
+
+
+
+
+
+
+
+
+.navbar-brand > img {
+  height: 80px;
+  transition: all 0.35s ease 0s; 
+  -webkit-transition: all 0.35s ease 0s;
+   -moz-transition: all 0.35s ease 0s;
+}
+.navbar-brand {
+  float: left;
+  font-size: 18px;
+  height: 80px;
+  line-height: 20px;
+  padding: 0;
+}
+.navbar-default {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  transition: all 0.35s ease 0s;
+  -webkit-transition: all 0.35s ease 0s;
+   -moz-transition: all 0.35s ease 0s;
+}
+
+nav.affix {
+  background: #333;
+  padding:5px 0;
+}
+nav.affix img {
+  height: 80px;
+  margin-top: 5px;
+ transition: all 0.35s ease 0s;
+  -webkit-transition: all 0.35s ease 0s;
+   -moz-transition: all 0.35s ease 0s;
+ content:url(../img/logo2.png)
+}
+nav.affix-top {
+ padding: 15px 0;
+}
+.navbar-default {
+ font-family: 'Open Sans', sans-serif;
+}
+.navbar-default .navbar-nav > li > a {
+padding-left: 10px;
+margin-left: 10px;
+  color:#666;
+  font-size:16px;
+  text-align:center;
+  border-radius: 5px;    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.navbar-default .navbar-nav > li > a:focus, 
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: transparent;
+   background-color: #909;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+  color: #fff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  background-color: #909;   
+     border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+  color: #fff;
+
+
+
+
+
+#contact {
+  background: #333 none repeat scroll 0 0;
+  color: #fff;
+  padding: 60px 0 0px;
+  position: relative;
+  width: 100%;
+}
+#contact .btn-block {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid;
+  border-radius: 3px;
+  display: block;
+margin-bottom: 50px;
+  width: 150px;
+   transition: all .3s ease 0s;
+  -webkit-transition: all .3s easen 0s;
+   -moz-transition: all .3s ease 0s;
+}
+#contact iframe {
+  transform: skewY(5.5deg);
+-webkit-transform: skewY(5.5deg);
+ -moz-transform: skewY(5.5deg);
+}
+#contact .btn-block:hover {
+  background: orangered none repeat scroll 0 0;
+   border: 1px solid #666;
+   color:#fff;
+    transition: all .3s ease 0s;
+  -webkit-transition: all .3s easen 0s;
+   -moz-transition: all .3s ease 0s;
+}
+#contact .form-control {
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #666;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  color: #555;
+  display: block;
+  font-size: 14px;
+  height: 57px;
+  line-height: 1.42857;
+  padding: 10px 12px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  width: 100%;
+}
+#contact .headding h2 span {
+  color: #fff;
+}
+#contact .map
+{
+height:272px;
+}
+
+/*-------- footer --------------*/
+#footer {
+  background: #333 none repeat scroll 0 0;
+  color: #fff;
+  padding: 60px 0 120px;
+  position: relative;
+  width: 100%;  
+  text-align: center;
+}
+#footer .social-links {
+  border-bottom: 2px dashed #444;
+  border-top: 2px dashed #444;
+  list-style: outside none none;
+  margin: 0 0 20px;
+  padding: 35px 0;
+
+}
+#footer .social-links li {
+  display: inline-block;
+  margin: 5px;
+}
+#footer .social-links a {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  color: rgba(255, 255, 255, 0.2);
+  display: block;
+  font-size: 14px;
+  height: 36px;
+  line-height: 35px;
+  text-align: center;
+  width: 36px;
+}
+#footer .social-links a:hover {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
+}
